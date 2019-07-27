@@ -23,7 +23,13 @@ public class DeptController {
     @HystrixCommand(fallbackMethod = "processHystrix_Get")
     public Dept get(@PathVariable("id") Long id)
     {
-        return service.get(id);
+        Dept dept = this.service.get(id);
+
+        if (null == dept) {
+            throw new RuntimeException("该ID：" + id + "没有没有对应的信息");
+        }
+
+        return dept;
     }
     public Dept processHystrix_Get(@PathVariable("id") Long id)
     {
