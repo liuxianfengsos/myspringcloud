@@ -1,0 +1,37 @@
+server:
+  port: 8002
+
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件路径
+  type-aliases-package: com.springcloud.entities    # 鎵�鏈塃ntity鍒悕绫绘墍鍦ㄥ寘
+  mapper-locations:
+  - classpath:mybatis/mapper/**/*.xml                       # mapper鏄犲皠鏂囦欢
+
+spring:
+   application:
+    name: myspringcloud-dept                                 #对外暴露的服务名
+   datasource:
+    type: com.alibaba.druid.pool.DruidDataSource            # 褰撳墠鏁版嵁婧愭搷浣滅被鍨�
+    driver-class-name: org.gjt.mm.mysql.Driver              # mysql椹卞姩鍖�
+    url: jdbc:mysql://localhost:3306/cloudDB02              # 鏁版嵁搴撳悕绉�
+    username: root
+    password: 123
+    dbcp2:
+      min-idle: 5                                           # 鏁版嵁搴撹繛鎺ユ睜鐨勬渶灏忕淮鎸佽繛鎺ユ暟
+      initial-size: 5                                       # 鍒濆鍖栬繛鎺ユ暟
+      max-total: 5                                          # 鏈�澶ц繛鎺ユ暟
+      max-wait-millis: 200
+eureka:
+    client: #客户端注册进eureka服务列表内
+      service-url:
+        #defaultZone: http://localhost:7001/eureka
+        defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+    instance:
+      instance-id: myspringcloud-dept8002
+      prefer-ip-address: true #访问路径可以显示
+
+info:
+  app.name: demo-myspringcloud
+  company.name: www.demo.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
