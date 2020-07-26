@@ -9,6 +9,8 @@
         <module name="myspringcloud-api" />
         <module name="myspringcloud-config-3344" />
         <module name="myspringcloud-config-3355" />
+        <module name="myspringcloud-config-dept-client-8001" />
+        <module name="myspringcloud-config-eureka-client-7001" />
         <module name="myspringcloud-consumer-dept-80" />
         <module name="myspringcloud-consumer-dept-feign" />
         <module name="myspringcloud-consumer-hystrix-dashboard" />
