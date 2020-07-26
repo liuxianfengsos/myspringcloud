@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myspringcloud-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myspringcloud-config-3344" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myspringcloud-config-3355" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myspringcloud-consumer-dept-80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myspringcloud-consumer-dept-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myspringcloud-consumer-hystrix-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myspringcloud-eureka-7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myspringcloud-eureka-7002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myspringcloud-eureka-7003" charset="UTF-8" />
@@ -12,5 +15,7 @@
     <file url="file://$PROJECT_DIR$/myspringcloud-provider-dept-8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myspringcloud-provider-dept-8003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myspringcloud-provider-dept-hystrix-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myspringcloud-srpingcloudgateway-9529" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myspringcloud-zuul-gateway-9527" charset="UTF-8" />
   </component>
 </project>

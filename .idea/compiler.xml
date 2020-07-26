@@ -6,9 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="myspringcloud-api" />
+        <module name="myspringcloud-config-3344" />
+        <module name="myspringcloud-config-3355" />
+        <module name="myspringcloud-consumer-dept-80" />
+        <module name="myspringcloud-consumer-dept-feign" />
+        <module name="myspringcloud-consumer-hystrix-dashboard" />
+        <module name="myspringcloud-eureka-7001" />
+        <module name="myspringcloud-eureka-7002" />
+        <module name="myspringcloud-eureka-7003" />
+        <module name="myspringcloud-provider-dept-8001" />
+        <module name="myspringcloud-provider-dept-8002" />
+        <module name="myspringcloud-provider-dept-8003" />
+        <module name="myspringcloud-provider-dept-hystrix-8001" />
+        <module name="myspringcloud-srpingcloudgateway-9529" />
+        <module name="myspringcloud-zuul-gateway-9527" />
         <module name="myspringcloudapi" />
         <module name="myspringcloudconsumerdept80" />
         <module name="myspringcloudconsumerdeptfeign" />
+        <module name="myspringcloudconsumerhystrixdashboard" />
         <module name="myspringcloudeureka7001" />
         <module name="myspringcloudeureka7002" />
         <module name="myspringcloudeureka7003" />
@@ -16,11 +32,18 @@
         <module name="myspringcloudproviderdept8002" />
         <module name="myspringcloudproviderdept8003" />
         <module name="myspringcloudproviderdepthystrix8001" />
+        <module name="myspringcloudzuulgateway9527" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="_3myspringcloudproviderdept8001" target="1.8" />
+      <module name="myspringcloud-springcloud-gateway-9529" target="1.8" />
       <module name="myspringcloudproviderdept" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="myspringcloud-srpingcloudgateway-9529" options="-parameters" />
+    </option>
   </component>
 </project>

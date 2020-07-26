@@ -8,11 +8,13 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/myspringcloud-srpingcloudgateway-9529/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/myspringcloud-provider-dept/pom.xml" />
+        <option value="$PROJECT_DIR$/myspringcloud-springcloud-gateway-9529/pom.xml" />
       </set>
     </option>
   </component>
