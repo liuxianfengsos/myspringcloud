@@ -1,0 +1,26 @@
+server:
+  port: 9529
+spring:
+  application:
+    name: myspringcloud-springcloud-gateway
+
+    cloud:
+      gateway:
+        routes:
+          - id: test_rout
+            uri: http://www.baidu.com
+            predicates:
+              - Query=url,baidu
+          - id: test_rout
+            uri: https://www.qq.com
+            predicates:
+              - Query=url,qq
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: springcloud-gateway-9529.com
+    prefer-ip-address: true
