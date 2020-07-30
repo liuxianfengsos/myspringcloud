@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/myspringcloud-srpingcloudgateway-9529/pom.xml" />
+        <option value="$PROJECT_DIR$/myspringcloud-consumer-dept-openfeign80/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

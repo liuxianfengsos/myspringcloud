@@ -13,6 +13,7 @@
         <module name="myspringcloud-config-eureka-client-7001" />
         <module name="myspringcloud-consumer-dept-80" />
         <module name="myspringcloud-consumer-dept-feign" />
+        <module name="myspringcloud-consumer-dept-openfeign80" />
         <module name="myspringcloud-consumer-hystrix-dashboard" />
         <module name="myspringcloud-eureka-7001" />
         <module name="myspringcloud-eureka-7002" />
@@ -39,12 +40,15 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="_3myspringcloudproviderdept8001" target="1.8" />
+      <module name="myspringcloud-consumer-dept-openfeign" target="1.8" />
       <module name="myspringcloud-springcloud-gateway-9529" target="1.8" />
+      <module name="myspringcloudconsumerdeptopenfeign" target="1.8" />
       <module name="myspringcloudproviderdept" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="myspringcloud-consumer-dept-openfeign80" options="-parameters" />
       <module name="myspringcloud-srpingcloudgateway-9529" options="-parameters" />
     </option>
   </component>

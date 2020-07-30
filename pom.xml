@@ -24,8 +24,6 @@
         <module>myspringcloud-config-3355</module>
         <module>myspringcloud-config-eureka-client-7001</module>
         <module>myspringcloud-config-dept-client-8001</module>
-
-
     </modules>
     <packaging>pom</packaging>
 

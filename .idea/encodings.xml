@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/myspringcloud-config-eureka-client-7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myspringcloud-consumer-dept-80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myspringcloud-consumer-dept-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myspringcloud-consumer-dept-openfeign80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myspringcloud-consumer-dept-openfeign80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myspringcloud-consumer-hystrix-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myspringcloud-eureka-7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myspringcloud-eureka-7002" charset="UTF-8" />
